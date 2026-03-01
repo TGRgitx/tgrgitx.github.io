@@ -157,13 +157,16 @@ body.project-page {
 
 .site-warning {
     width: 100%;
+    box-sizing: border-box;
     background: #c62828;
     color: #fff;
-    text-align: center;
+}
+
+.site-warning-inner {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
-    font-size: 14px;
-    font-weight: 500;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    text-align: center;
 }
 
 .lightbox {
